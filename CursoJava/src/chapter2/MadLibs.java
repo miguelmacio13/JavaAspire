@@ -18,6 +18,9 @@ public class MadLibs {
 		System.out.println("Escriba un número entero:");
 		int numero = scanner.nextInt();
 		
+		//Se cierra scanner
+		scanner.close();
+		
 		//Se arma la nueva oración
 		
 		System.out.println("On a " + adjetivo + " " + temporada + " day, I drink a minimum of " + numero + " cups of coffee.");	
