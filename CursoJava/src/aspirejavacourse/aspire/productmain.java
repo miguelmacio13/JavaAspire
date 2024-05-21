@@ -11,7 +11,8 @@ public class productmain {
 		
 		product product2 = new product("iPhone",16780.99f,987654,"Electrónicos");
 		
-		
+//		Scanner scanner = new Scanner(System.in)
+				;
 		
 		//Utilizar métodos del objeto product
 		product.setName("gansito");
