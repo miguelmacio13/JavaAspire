@@ -14,6 +14,7 @@ public class daysOfWeek7c {
 	}
 	
 	public static int dayInput() {
+		
 		System.out.println("Indica con entero del 1 al 7 qué día de la semana es: ");
 		diaInt = scanner.nextInt();
 		return diaInt;
